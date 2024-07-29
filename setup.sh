@@ -499,7 +499,7 @@ print_success "SSHD"
 clear
 function ins_dropbear(){
 clear
-print_install "Install Dropbear"
+print_install "Install Dropbear, Press any button if too long"
 # // Installing Dropbear
 apt-get install dropbear -y > /dev/null 2>&1
 wget -q -O /etc/default/dropbear "${REPO}config/dropbear.conf"
